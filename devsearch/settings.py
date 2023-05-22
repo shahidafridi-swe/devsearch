@@ -143,24 +143,24 @@ WSGI_APPLICATION = 'devsearch.wsgi.application'
 # }
 
 
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'devsearch',
-        'HOST': 'localhost',
-        'USER': 'root',
-        'PASSWORD': '7862',
-    }
-}
-
-
-
 # DATABASES = {
 #     'default': {
-#         'ENGINE': 'django.db.backends.sqlite3',
-#         'NAME': BASE_DIR / 'db.sqlite3',
+#         'ENGINE': 'django.db.backends.mysql',
+#         'NAME': 'devsearch',
+#         'HOST': 'localhost',
+#         'USER': 'root',
+#         'PASSWORD': '7862',
 #     }
 # }
+
+
+
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': BASE_DIR / 'db.sqlite3',
+    }
+}
 
 
 # Password validation
@@ -199,7 +199,7 @@ EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
 EMAIL_HOST_USER = 'shahidafridi.pu@gmail.com'
-EMAIL_HOST_PASSWORD = 'mpwxjgzyqinnplfh'
+EMAIL_HOST_PASSWORD = 'poyvpyachrcvecpq'
 
 
 # Static files (CSS, JavaScript, Images)
